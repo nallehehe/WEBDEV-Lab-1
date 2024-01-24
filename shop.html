@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cutting Edge</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="website-header bg-black">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand logo" href="#">
+                <img src="./images/CuttingEdgelogo.png" alt="CuttingEdgeLogo" width="250">
+            </a>
+            <div>
+                <ul class="navbar-nav">
+                    <li class="nav-item nav-button">
+                        <a class="nav-link btn btn-light bg-white text-black" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item nav-button">
+                        <a class="nav-link btn btn-light bg-white text-black" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item nav-button">
+                        <a class="nav-link btn btn-light bg-white text-black" href="about.html">About us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container-fluid">
+        <div class="product-line text-white bg-black line1 text-center">
+            <div class="product-text">Haircut Touch Up - 550 SEK</div>
+            <div class="btn-line">
+                <a class="btn btn-light bg-white text-black" onclick="addToCart()">Buy</a>
+            </div>
+        </div>
+        <div class="product-line text-white bg-black line2 text-center">
+            <div class="product-text">Beard Touch Up - 200 SEK</div>
+            <div class="btn-line">
+                <a class="btn btn-light bg-white text-black" onclick="addToCart()">Buy</a>
+            </div>
+        </div>
+        <div class="product-line text-white bg-black line3 text-center">
+            <div class="product-text">Hair Coloring - 800 SEK</div>
+            <div class="btn-line">
+                <a class="btn btn-light bg-white text-black" onclick="addToCart()">Buy</a>
+            </div>
+        </div>
+
+        <div class="image-container product-image1">
+            <img src="./images/ProductImage.jpg">
+        </div>
+        <div class="image-container product-image2">
+            <img src="./images/ProductImage2.jpg">
+        </div>
+        <div class="image-container product-image3">
+            <img src="./images/ProductImage3.jpg">
+        </div>
+
+        <div class="cart text-white bg-black">
+            <ul class="cart-list"></ul>
+            <div class="cart-total"></div>
+            <div class="buy-btn">
+                <a class="btn btn-light bg-white text-black" onclick="checkout()">Order</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

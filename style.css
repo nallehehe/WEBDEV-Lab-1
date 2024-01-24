@@ -1,0 +1,149 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('images/CuttingEdgeBackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.website-header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.transparent-rectangle-welcome{
+    position: absolute;
+    bottom: 250px;
+    left: 350px;
+    padding: 20px;
+    width: 250px;
+    height: 300px;
+    line-height: 2;
+}
+
+.transparent-rectangle-times{
+    position: absolute;
+    bottom: 250px;
+    right: 350px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    height: 300px;
+    line-height: 2;
+}
+
+.about-cutting-edge{
+    position: absolute;
+    bottom: 150px;
+    left: 700px;
+    padding: 20px;
+    width: 500px;
+    height: 570px;
+    line-height: 2;
+}
+
+.navbar-nav{
+    display: flex;
+    list-style: none;
+}
+
+.nav-button{
+    margin-right: 10px;
+}
+
+.product-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    top: 150px;
+    height: 75px;
+    margin-bottom: 150px;
+    position: absolute;
+    text-align: center;
+}
+
+.product-text {
+    position: absolute;
+    left: 50px;
+}
+
+.btn-line {
+    flex: 1;
+    margin-left: 300px;
+}
+
+.line1 {
+    top: 400px;
+    left: 400px
+}
+
+.line2 {
+    top: 500px;
+    left: 400px;
+}
+
+.line3 {
+    top: 600px;
+    left: 400px;
+}
+
+.image-container {
+    position: absolute;
+}
+
+.product-image1 {
+    top: 395px;
+    left: 300px;
+}
+
+.product-image2 {
+    top: 495px;
+    left: 300px;
+}
+
+.product-image3 {
+    top: 595px;
+    left: 300px;
+}
+
+.cart{
+    position: absolute;
+    bottom: 150px;
+    right: 150px;
+    padding: 20px;
+    width: 350px;
+    height: 550px;
+    line-height: 2;
+}
+
+.buy-btn{
+    position: absolute;
+    right: 135px;
+    bottom: 25px;
+}
+
+.cart-total{
+    position: absolute;
+    bottom: 80px;
+    right: 115px;
+}
+
+.remove-button {
+    margin-left: 10px;
+}
+
+.location{
+    position: absolute;
+    bottom: 150px;
+    right: 150px;
+    padding: 20px;
+    width: 500px;
+    height: 550px;
+    line-height: 2;
+}
